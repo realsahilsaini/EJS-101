@@ -3,7 +3,9 @@
 ---
 
  - EJS (Embedded JavaScript)  is a templating language that helps you generate dynamic HTML using JavaScript. 
+  
   <br/>
+
  - It is often used in combination with Node.js and Express to create dynamic web applications.
 
 ---
