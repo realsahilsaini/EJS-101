@@ -1,0 +1,16 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EJS Example</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>User List</h1>
+  <ul>
+    <% users.forEach(function(user) { %>
+      <li><%= user.name %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
